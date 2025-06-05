@@ -33,13 +33,13 @@ public class FloatingPointStats {
 				if (done.equalsIgnoreCase("done")) {
 					break;
 				}
-				else {							//if invalid input, prompts user to finish inputing numbers or to type "done"
-					System.out.println("Invalid input. Please enter \"done\" to quit or five total numbers.");
+				else {							//if invalid input, prompts user to finish inputting numbers or to type "done"
+					System.out.println("Invalid input. Please enter \"done\" to quit or enter five total numbers.");
 				}
 			}
 		}
 		if (i == 0) {							//triggers if user immediately types "done" with no numbers entered
-			System.out.println("No numbers were entered. Terminating program.");
+			System.out.println("No numbers were entered. Terminating the program.");
 		}
 		else {
 			System.out.println("                   total: " + total);		//prints total
